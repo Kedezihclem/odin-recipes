@@ -1,18 +1,15 @@
 body {
-    margin-left:20%;
-    margin-right:20%;
-}
-
-body {
     font-family:'Courier New', Courier, monospace;
     background-color: #0E0B16;
+    margin-left:20%;
+    margin-right:20%;
+    text-align: center;
 }
 
 h1,
 h2,
 p {
     color: #e7dfdd;
-    text-align: center;
 }
 
 h1,
@@ -21,26 +18,21 @@ h2 {
 }
 
 ul {
-    margin: 0%;
-    padding: 0%;
-    text-align: center;
-    color: #e7dfdd;
     list-style: none;
 }
 
-ol {
+ol,
+ul {
     color:#e7dfdd;
-    text-align: center;
     list-style-position: inside;
+    margin:0%;
+    padding: 0%;
 }
 
+}
 a {
     color: #a239ca;
 }
-div#image {
-    text-align: center;
-}
-
 img {
     height: 300px;
     width: auto;
