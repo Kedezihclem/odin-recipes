@@ -38,3 +38,8 @@ img {
     border-radius: 10px;
     border-style: groove;
 }
+#hat {
+    border: none;
+    height: 200px;
+    width:auto
+}
